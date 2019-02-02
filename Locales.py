@@ -20,7 +20,7 @@ class Locales:
         with open(file_name, 'w', encoding='utf-8') as f:
             data = {
                 "languages": {
-                    "eng": "English", "ru": "Русский"
+                    "ru": "Русский", "eng": "English", "sp": "Español"
                 },
 
                 "messages": {
@@ -29,8 +29,9 @@ class Locales:
                         "eng": "Welcome!"
                     },
                     "goodbye": {
-                        "ru": "До свидания!",
-                        "eng": "Goodbye!",
+                        "ru": "Пока",
+                        "eng": "Goodbye",
+                        "sp": "Adiós"
                     }
                 }
 
