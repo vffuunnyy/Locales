@@ -1,4 +1,4 @@
-# PyLocales
+# Locales
 
 Locales - module for multilingual projects
 
